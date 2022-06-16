@@ -1,0 +1,139 @@
+.signup {
+    height: calc(120vh - 30px - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+    rgba(10, 10, 10, 0.5),
+    rgba(10, 10, 10, 0.5)
+    ),
+    url("https://media.istockphoto.com/photos/film-reels-on-black-background-movie-video-and-cinema-prodaction-and-picture-id1336937059?k=20&m=1336937059&s=170667a&w=0&h=aaFBLnJU5BICv5ORClwmeL32ZQhueE7ZMtsrNZMFRH4=");
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 710px;
+}
+
+.signupInput {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    background-color: transparent!important;
+    font-size: 13px;
+    height: 20px;
+    border-radius: 23.5px;
+    border: 2px solid #797d7a!important;
+    box-shadow: 0 0 4px rgb(219 146 10);
+    text-align: center;
+    color: #fff;
+    margin: 10px auto;
+    background: linear-gradient(black, transparent);
+}
+
+.signupUser {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    background-color: transparent!important;
+    font-size: 13px;
+    height: 20px;
+    border-radius: 23.5px;
+    border: 2px solid #797d7a!important;
+    box-shadow: 0 0 4px rgb(219 146 10);
+    text-align: center;
+    color: #fff;
+    margin: 10px auto;
+    background: linear-gradient(black, transparent);
+}
+
+.signupSubmit {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(170, 9, 9);
+    border: none;
+    color:white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 0 4px rgb(230, 218, 218);
+    width: 150px;
+    align-self: center;
+    letter-spacing: 2px;
+    font-weight: 600!important;
+    font-size: medium;
+}
+
+.signupMember {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(170, 9, 9);
+    border: none;
+    color:white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 0 4px rgb(230, 218, 218);
+    width: 300px;
+    align-self: center;
+    letter-spacing: 2px;
+    font-weight: 600!important;
+    font-size: 15px;
+}
+
+.signupSignin {
+    border: none;
+    background: transparent;
+    color: white;
+    padding-left: 2px;
+    padding-top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    color: #d7c77d;
+    letter-spacing: 1px;
+}
+
+.signupName {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.signupErrorName {
+    color: #bf2d31;
+    font-weight: 600;
+}
+
+.signupError {
+    color: #bf2d31;
+    font-weight: 600;
+}
+ 
+.signupTitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d8c87d;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.registerMsg {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.registerBtn {
+    height: 35px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(170, 9, 9);
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size:medium;
+}

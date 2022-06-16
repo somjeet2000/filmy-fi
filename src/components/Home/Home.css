@@ -1,0 +1,76 @@
+.home {
+    height: calc(140vh - 30px - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(10, 10, 10, 0.5),
+        rgba(10, 10, 10, 0.5)
+        ),
+        url("https://media.istockphoto.com/vectors/abstract-futuristic-background-with-hexagons-dark-scifi-hitech-with-vector-id1315800229?k=20&m=1315800229&s=612x612&w=0&h=l_AO5piHvWhegTZzbZZwXZJ9fS5EyydWA2GnwbsF5IU=");
+    background-size: cover;
+    padding-top: 240px;
+}
+
+.image {
+    display: flex;
+    width: 290px;
+    height: 170px;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.imageHover:hover {
+    transform: scale(1.02);
+}
+
+.homeTitle {
+    color: #d8c87d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    text-align: left;
+    /* text-decoration: underline;
+    text-decoration-color: #a6282a; */
+    padding-left: 70px;
+}
+
+.homeContent {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: silver;
+    height: 20px;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.leftArrow {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+#rightArrow {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.image4 {
+    display: block;
+    width: 300px;
+    height: 180px;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.homePicks {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.categories {
+    height: calc(125vh - 30px - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(
+        rgba(10, 10, 10, 0.5),
+        rgba(10, 10, 10, 0.5)
+        ),
+        url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?w=2000");
+    background-size: cover;
+    /* margin-top: 50px; */
+}
+
+.categoriesAllButton {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.categoriesButton {
+    width: 200px;
+    padding: 40px;
+    cursor: pointer;
+    background: transparent!important;
+    border-radius: 20px;
+    border: 2px solid #797d7a!important;
+    box-shadow: 0 0 4px rgb(219 146 10);
+    color: silver;
+    margin-right: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.categoriesName {
+    color: #d8c87d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    letter-spacing: 2px;
+}
