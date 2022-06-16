@@ -1,5 +1,5 @@
 # Filmy-Fi
-Filmy-Fi is a project basically based on ReactJs, HTML, JavaScript, CSS(Cascading Style Sheet), PHP, MySQL.
+Filmy-Fi is a project basically based on ReactJs, HTML, JavaScript, CSS(Cascading Style Sheet), PHP, MySQL. <br/>
 Requirements:
 Install NodeJs.
 Check your node version and npm version using node --version and npm --version respectively.
