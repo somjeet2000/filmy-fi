@@ -73,7 +73,7 @@ function Drama(props) {
         },
         {
             id: 9,
-            Image: "https://m.media-amazon.com/images/M/MV5BMDE3MjQ5NzItNjczYy00ZTFmLWJlMzYtMTUwMzYxZjljOWEwXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_.jpg",
+            Image: "https://api.time.com/wp-content/uploads/2017/01/michael-keaton-the-founder-2.jpg",
             Title: "The Founder",
             Details: "Ray, a salesman, meets the owners of McDonald's, a burger joint in Southern California. He realises the potential of the place and decides to make it the biggest restaurant business in the world.",
             Directors: "John Lee Hancock",
