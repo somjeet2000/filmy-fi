@@ -1,42 +1,39 @@
 .drama {
-    height: calc(165vh - 30px - 130px);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    background: linear-gradient(
-        rgba(10, 10, 10, 0.5),
-        rgba(10, 10, 10, 0.5)
-        ),
-        url("https://t3.ftcdn.net/jpg/02/66/00/42/360_F_266004248_brGaUW8cSWcQBDt1NJshxSjHxBqTMUMo.jpg");
-    background-size: cover;
-    padding-top: 230px;
-    overflow: hidden;
+  height: calc(170vh - 30px - 130px);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)),
+    url("https://t3.ftcdn.net/jpg/02/66/00/42/360_F_266004248_brGaUW8cSWcQBDt1NJshxSjHxBqTMUMo.jpg");
+  background-size: cover;
+  padding-top: 230px;
+  overflow: hidden;
 }
 
 .dramaHeader {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #d8c87d;
-    font-size: xxx-large;
-    letter-spacing: 2px;
-    text-align: left;
-    margin-left: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #d8c87d;
+  font-size: xxx-large;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-left: 40px;
 }
 
 .dramaImage {
-    display: block;
-    margin: auto;
-    width: 290px;
-    height: 160px;
-    border-radius: 11px;
-    cursor: pointer;
-    margin-left: 15px;
+  display: block;
+  margin: auto;
+  width: 290px;
+  height: 160px;
+  border-radius: 11px;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
 .dramaContent {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: silver;
-    height: 30px;
-    font-weight: 500;
-    font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: silver;
+  height: 30px;
+  font-weight: 500;
+  font-size: large;
 }
